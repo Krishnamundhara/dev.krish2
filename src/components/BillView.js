@@ -293,7 +293,7 @@ const BillView = () => {
             // fontWeight= 'bold'
             >
               
-              Date: {new Date(bill.date).toLocaleDateString()}
+              Date: {new Date(bill.date).toLocaleDateString('en-GB')}
             </Typography>
           </Box>  
 
