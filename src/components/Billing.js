@@ -139,7 +139,7 @@ const Billing = () => {
               {bills.length > 0 ? (
                 bills.map((bill) => (
                   <TableRow key={bill.id}>
-                    <TableCell>{new Date(bill.date).toLocaleDateString()}</TableCell>
+                    <TableCell>{new Date(bill.date).toLocaleDateString('en-GB')}</TableCell>
                     <TableCell>{bill.orderNumber}</TableCell>
                     <TableCell>{bill.customer}</TableCell>
                     <TableCell>{bill.product}</TableCell>
