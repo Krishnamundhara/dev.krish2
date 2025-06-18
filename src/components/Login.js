@@ -27,7 +27,9 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (formData.username === 'admin' && formData.password === 'admin') {
+    const validUsername = process.env.REACT_APP_USERNAME; // Use environment variable
+    const validPassword = process.env.REACT_APP_PASSWORD; // Use environment variable
+    if (formData.username === validUsername && formData.password === validPassword) {
       localStorage.setItem('isAuthenticated', 'true');
       navigate('/dashboard');
     } else {
