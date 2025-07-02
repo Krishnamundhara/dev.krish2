@@ -1,5 +1,5 @@
 <!--
-     This is all bullshit created by AI
+     This is all bullshit 
 -->
 
 # Getting Started with Create React App
@@ -13,7 +13,8 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
+Open [http://localhost:3001](http://localhost:7777) to view it in your browser.
+Open [https://dev-krish2.vercel.app/] to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
